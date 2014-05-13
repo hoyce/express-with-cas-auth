@@ -1,0 +1,32 @@
+{
+    "name": "express-with-cas-auth",
+    "version": "0.0.1",
+    "description": "Express application with CAS authentication for Passport",
+    "main": "app.js",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:hoyce/express-with-cas-auth.git"
+    },
+    "keywords": [
+        "passport",
+        "auth",
+        "cas",
+        "express"
+    ],
+    "author": "Niklas Olsson",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hoyce/express-with-cas-auth/issues"
+    },
+    "homepage": "https://github.com/hoyce/express-with-cas-auth",
+    "dependencies": {
+        "express": "~4.0.0",
+        "body-parser": "~1.0.2",
+        "express3-handlebars": "*",
+        "cookie-parser": "*",
+        "passport": "*",
+        "express-session": "*",
+        "passport-cas-kth": "*"
+    }
+}
